@@ -128,8 +128,6 @@ Contoh:
 
 Dengan cara ini, sistem bisa tahu copy mana yang sedang tersedia, dipinjam, rusak, atau hilang.
 
-Catatan: kolom `category` tetap ada di tabel `books`, tetapi pada tampilan final metadata yang lebih ditonjolkan adalah `publisher` atau penerbit. Kolom `category` dipertahankan sebagai metadata opsional, bukan fitur kategori utama.
-
 ## Hubungan `loans` dan `loan_items`
 
 Tabel `loans` menyimpan data transaksi utama, seperti siapa anggota yang meminjam dan kapan tanggal pinjamnya.
